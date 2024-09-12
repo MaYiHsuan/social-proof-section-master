@@ -54,8 +54,17 @@ h1 {
     height: 55px;
     border-radius: 10px;
     padding-left: 30px;
+}
+.box1 {
+    margin-left: 15px;
     margin-bottom: 20px;
-    
+}
+.box2 {
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+.box3 {
+    margin-left: 130px;
 }
 .stars {
     padding-right: 5px;
@@ -103,10 +112,19 @@ h1 {
     line-height: 20px;
     font-weight: 500;
 }
-
+.a1 {
+    margin-right: 20px;
+}
+.a2 {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.a3 {
+    margin-top: 40px;
+}
 @media screen and (max-width: 375px) {
     .container {
-        margin: 100px 30px;
+        margin: 80px 25px 80px 25px;
     }
     .up {
         display: flex;
@@ -115,7 +133,7 @@ h1 {
     .down {
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     body {
         background-image: url(./images/bg-pattern-top-mobile.svg);
@@ -128,12 +146,48 @@ h1 {
     }
     h1 {
         text-align: center;
+        font-size: 40px;
+        line-height: 35px;
     }
     .stars-box {
         display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: 80px;
         justify-content: center;
+        padding-left: 0px;
     }
-
+    .star-text {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .box1 {
+        margin-left: 0px;
+    }
+    .box2 {
+        margin-left: 0px;
+    }
+    .box3 {
+        margin-left: 0px;
+    }
+    .title {
+        text-align: center;
+    }
+    .avatar-box {
+        width: 325px;
+        height: 250px;
+    }
+    .a1 {
+        margin-right: 0px;
+    }
+    .a2 {
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+    .a3 {
+        margin-top: 15px;
+        margin-bottom: 80px;
+    }
 
 
 }
