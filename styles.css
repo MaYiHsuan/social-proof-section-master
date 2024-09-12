@@ -129,6 +129,7 @@ h1 {
     .up {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .down {
         display: flex;
